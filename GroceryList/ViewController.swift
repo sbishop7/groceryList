@@ -28,6 +28,7 @@ class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.contentInset.top = 30
         
 //        var stagingStruct = GroceryCategory(name: "first piece", items: ["blah"])
         
@@ -51,7 +52,7 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 100
+        return 44
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -61,6 +62,7 @@ class TableViewController: UITableViewController {
         let label = UILabel(frame: CGRect(x: 10, y: 5, width: tableView.frame.size.width, height: 18))
         
         label.text = dataArray[section].name
+        label.textAlignment = .center
         
         view.addSubview(label)
         
