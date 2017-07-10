@@ -36,8 +36,8 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Produce" textLabel="4Ty-bv-7EP" style="IBUITableViewCellStyleDefault" id="8fj-AF-NeI">
-                                <rect key="frame" x="0.0" y="144" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" showsReorderControl="YES" indentationWidth="10" reuseIdentifier="Produce" textLabel="RHn-3C-GXP" detailTextLabel="uqu-Ia-crA" style="IBUITableViewCellStyleSubtitle" id="8fj-AF-NeI">
+                                <rect key="frame" x="0.0" y="143.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" tableViewCell="8fj-AF-NeI" id="K2I-Tj-QFn">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
