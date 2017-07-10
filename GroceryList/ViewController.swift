@@ -73,9 +73,9 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = dataArray[indexPath.section].items[indexPath.row]
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: dataArray[ indexPath.section ].name )
+        cell?.textLabel?.text = dataArray[indexPath.section].items[indexPath.row]
+        return cell!
     }
 
 
